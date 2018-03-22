@@ -19,8 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+<<<<<<< HEAD
         "../node_modules/w3-css/w3.css",
         "../node_modules/raleway-webfont",
+=======
+>>>>>>> 0438d313e2d0fef2f53570464c300e1530c551a1
         "styles.css"
       ],
       "scripts": [],
