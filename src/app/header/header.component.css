@@ -1,0 +1,82 @@
+.backgroundIMG {
+	/*Background image*/
+    background-image: url('/assets/Background.jpg');
+
+    /*Set rule to fill background*/
+    min-height: 100%;
+    min-width: 1024px;
+
+    /*Set up proportionate scaling*/
+    width: 100%;
+    height: auto;
+
+    /*Set up positioning*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Set the text to center*/
+.makeitCenter {
+	text-align: center;
+}
+
+/*Make the line border color gray*/
+.borderGray {
+	margin-top: 20px;
+	border-color: #bbb!important;
+}
+
+/*Set the text color become white*/
+.setColorWhite {
+	color: white;
+}
+
+/*h1 content*/
+h1 {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: white!important;
+	margin: 0;
+}
+
+h2 {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: white!important;
+	margin: 0;
+}
+
+/*Set Top Left*/
+.display_TopLeft {
+	position:absolute;
+	left:1%;
+	top:2%;
+}
+
+/*Set the middle position*/
+.display_MiddlePage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Drop from top to bottom effect animation*/
+.dropFromTopanimate {
+	position:relative;
+	animation:animatetop 4.0s;
+}
+
+/*Fill in blank*/
+#input {
+  display: inline-block;
+  border-bottom: 3px solid white;
+  width: 250px;
+  padding-left: 10px;
+  font-style: italic;
+}
